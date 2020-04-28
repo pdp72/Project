@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- Developer Parnell Provilon, IS117-004, Spring 2020 -->
+<html lang = en>
+<head>
+    <meta charset = "UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class = "container-fluid">
+
+    <div class = "row">
+        <a href = "HomePage.html"><img src = "images/orange_home.jpg" alt = "homepage icon" height = "100px"></a>
+    <h1 class="name"> Parnell Provilon's resume</h1>
+    </div>
+<!-- navigation bar -->
+    <div class = "row" >
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Relevant.html">Relevant Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Wanted.html">Wanted Positions</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Projects.html" id="navbardrop" data-toggle="dropdown">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Projects.html#p1">Tic-Tac-Toe</a>
+                            <a class="dropdown-item" href="Projects.html#p2">Database Login Form</a>
+                            <a class="dropdown-item" href="Projects.html#p3">Basic Shape Game</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<!-- Content of page -->
+        <div class="row">
+        <div class="card person col-6">
+
+            <img src="images/avatar3.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Parnell Provilon</b></h4>
+                <p>Student at NJIT</p>
+            </div>
+
+        </div>
+
+            <div class="col-6">
+                <p > Hello! My name is Parnell Provilon and I am currently an IT major at NJIT <br>
+                    I enjoy working with computers and I was a part of the NJIT chapter of the ACM. <br>
+                    I have experience with HTML web development and working with servers and clients in Java.<br>
+                    I am also familiar with the both wired and wireless networks and troubleshooting  and I have experience working with said networks.
+                    I made this website to help demonstrate my skills in web development</p>
+            </div>
+        </div>
+    </div>
+
+<!-- End of content of page -->
+
+<!-- Footer -->
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+                <div class="row">
+                    <span class="foottext"> &copy; Parnell Provilon 2020. | Terms Of Use | Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
